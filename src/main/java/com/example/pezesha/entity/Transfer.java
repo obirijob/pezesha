@@ -30,4 +30,5 @@ public class Transfer {
 
     @Column(name = "amount")
     private Double amount;
+
 }

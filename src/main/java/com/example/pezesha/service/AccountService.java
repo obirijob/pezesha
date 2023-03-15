@@ -18,6 +18,7 @@ public class AccountService {
 
     public Account getAccount(int id) {
         // checks the db to find the account else it will return null
+
         return accountRepo.findById(id).orElse(null);
     }
 
